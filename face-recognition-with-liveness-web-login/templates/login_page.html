@@ -20,13 +20,16 @@
         <form method="POST">
           <!--Email-->
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input type="text" id="sample3" name="username" placeholder="Nombre de Usuario">
+            <input type="text" id="sample3" name="card" placeholder="Número de tarjeta">
+          </div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+            <input type="text" id="sample3" name="dni" placeholder="DNI">
           </div>
           <br />
           <br />
           <!--Password-->
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-            <input pattern=".{8,}" type="password" id="sample3" name="password" placeholder="Contraseña">
+            <input type="password" id="sample3" name="password" placeholder="Contraseña">
           </div>
           <br />
           {% if incorrect == True %}
